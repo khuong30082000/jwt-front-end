@@ -67,6 +67,12 @@ function NavHeader() {
                 <NavLink to="/users" className="nav-link">
                   Users
                 </NavLink>
+                <NavLink to="/roles" className="nav-link">
+                  Roles
+                </NavLink>
+                <NavLink to="/group-role" className="nav-link">
+                  Group-Roles
+                </NavLink>
                 <NavLink to="/projects" className="nav-link">
                   Projects
                 </NavLink>

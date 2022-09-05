@@ -95,8 +95,7 @@ function Users() {
                   setActionModalUser("CREATE");
                 }}
               >
-                <i className="fa fa-plus-circle" aria-hidden="true"></i> Add new
-                User
+                <i className="fa fa-plus-circle"></i> Add new User
               </button>
             </div>
           </div>

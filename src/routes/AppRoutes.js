@@ -1,6 +1,8 @@
 import { Switch, Route } from "react-router-dom";
+import GroupRole from "../components/GroupRole/GroupRole";
 import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
+import Role from "../components/Role/Role";
 import Users from "../components/Users/Users";
 import PrivateRoutes from "./PrivateRoutes";
 const AppRoutes = () => {
@@ -21,6 +23,8 @@ const AppRoutes = () => {
 
         <PrivateRoutes path="/users" compunent={Users} />
         <PrivateRoutes path="/projects" compunent={Projects} />
+        <PrivateRoutes path="/roles" compunent={Role} />
+        <PrivateRoutes path="/group-role" compunent={GroupRole} />
 
         <Route path="/login">
           <Login />
